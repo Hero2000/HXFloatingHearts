@@ -55,11 +55,29 @@ UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTar
 }
 ```
 
+4.More
 
+It support circle shape.Also support random circle or heart shape. Just add one line.
+
+```
+//Circle
+heart.isCircle = true;
+```
+
+or
+
+```
+//Random shape
+heart.isRandomShape = true;
+```
+
+random shape
 
 ## Author
 
 Insofan, insofan3156@gmail.com
+
+It inspired by [saidmarouf/FloatingHearts](https://github.com/saidmarouf/FloatingHearts),thanks for it.
 
 ## License
 
