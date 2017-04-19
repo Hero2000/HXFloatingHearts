@@ -64,14 +64,12 @@ It support circle shape.Also support random circle or heart shape. Just add one 
 heart.isCircle = true;
 ```
 
-or
+or random shape
 
 ```
 //Random shape
 heart.isRandomShape = true;
 ```
-
-random shape
 
 ## Author
 
