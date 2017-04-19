@@ -1,0 +1,28 @@
+{
+  "name": "HXFloatingHearts",
+  "version": "0.1.0",
+  "summary": "A floating heart animation framework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Insofan/HXFloatingHearts",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Insofan": "282132315@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Insofan/HXFloatingHearts.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HXFloatingHearts/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "HXTool": [
+      "~> 0.1.2"
+    ]
+  }
+}

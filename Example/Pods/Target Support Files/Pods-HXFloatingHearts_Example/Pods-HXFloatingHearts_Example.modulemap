@@ -1,0 +1,6 @@
+framework module Pods_HXFloatingHearts_Example {
+  umbrella header "Pods-HXFloatingHearts_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

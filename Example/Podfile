@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXFloatingHearts_Example' do
+  pod 'HXFloatingHearts', :path => '/Users/haixiao/Desktop/OCDevelopment/HXFloatingHearts'
+
+  target 'HXFloatingHearts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

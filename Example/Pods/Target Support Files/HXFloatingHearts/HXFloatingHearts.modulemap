@@ -1,0 +1,6 @@
+framework module HXFloatingHearts {
+  umbrella header "HXFloatingHearts-umbrella.h"
+
+  export *
+  module * { export * }
+}

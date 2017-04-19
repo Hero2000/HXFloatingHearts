@@ -1,0 +1,19 @@
+PODS:
+  - HXFloatingHearts (0.1.0):
+    - HXTool (~> 0.1.2)
+  - HXTool (0.1.2)
+
+DEPENDENCIES:
+  - HXFloatingHearts (from `/Users/haixiao/Desktop/OCDevelopment/HXFloatingHearts`)
+
+EXTERNAL SOURCES:
+  HXFloatingHearts:
+    :path: "/Users/haixiao/Desktop/OCDevelopment/HXFloatingHearts"
+
+SPEC CHECKSUMS:
+  HXFloatingHearts: 617e44ed8210dcd14d2af5035c1824918015cb9c
+  HXTool: 2a61e9bf07c6794c17b03c289944d1cbe5f8c332
+
+PODFILE CHECKSUM: 4265ac1a6162ead99283225ac9a6109c6f1d0a02
+
+COCOAPODS: 1.1.0.rc.3
