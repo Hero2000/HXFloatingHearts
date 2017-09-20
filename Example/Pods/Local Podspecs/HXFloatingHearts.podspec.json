@@ -1,7 +1,7 @@
 {
   "name": "HXFloatingHearts",
   "version": "0.1.0",
-  "summary": "A floating heart animation framework.",
+  "summary": "A floating heart and circle animation framework.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Insofan/HXFloatingHearts",
   "license": {
@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Insofan": "282132315@qq.com"
+    "Insofan": "insofan3156@gmail.com"
   },
   "source": {
     "git": "https://github.com/Insofan/HXFloatingHearts.git",

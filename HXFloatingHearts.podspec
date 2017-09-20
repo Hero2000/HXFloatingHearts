@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Insofan/HXFloatingHearts'
-  s.screenshots     = 'http://storage1.imgchr.com/i1XRI.gif'
+  #s.screenshots     = 'http://storage1.imgchr.com/i1XRI.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Insofan' => 'insofan3156@gmail.com' }
   s.source           = { :git => 'https://github.com/Insofan/HXFloatingHearts.git', :tag => s.version.to_s }

@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		0611B4290B115DA596012F18D078553E /* HXButtonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F52FAFDC250E6C6D0B95EE643A7E6C /* HXButtonTool.m */; };
 		118544068A8F359CBBFB201B3CBD43D1 /* HXButtonTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C027B6A9B18484F402AE04627BD7696B /* HXButtonTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11D8B6787200B39A18A5D6E70FD35B71 /* HXFloatingHearts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46D5A6AA4610D3FA0E0AE8D5489D6A /* HXFloatingHearts.m */; };
+		11D8B6787200B39A18A5D6E70FD35B71 /* HXFloatingHearts.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE7EEA50E92865548236B0AEC70D6C /* HXFloatingHearts.m */; };
 		12B150FA136F8833AD6E1EE634374F73 /* Pods-HXFloatingHearts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 193AEE0C38406D562888CC58E952F772 /* Pods-HXFloatingHearts_Example-dummy.m */; };
 		1C6C02C7E4C289084407CC6D4166C5D6 /* HXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BCDE7A2FA38ACC54A95EFF2B43B7B6 /* HXTool-dummy.m */; };
 		452A1D98529DB17F0C54E4762DAF26BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE95461D6D6FA604017D06AFCDB73C02 /* Foundation.framework */; };
-		4BA992CD60C001D01EE2DDD50A0B3110 /* HXFloatingHearts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9E041DFAB3E8565E5C34FEA9138C0D /* HXFloatingHearts-dummy.m */; };
+		4BA992CD60C001D01EE2DDD50A0B3110 /* HXFloatingHearts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7498D1D4589940CD17741E6B9663DCD2 /* HXFloatingHearts-dummy.m */; };
 		5E147936DF123DE4642A3A34A1556FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE95461D6D6FA604017D06AFCDB73C02 /* Foundation.framework */; };
 		66C1291225C9A5FEE8EDE7E1F93660FB /* HXScreenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D180ED53AB8E33BD042249CD39CEA8 /* HXScreenTool.m */; };
 		6A4C32E74D5F41FC24923C8DFA25B72D /* HXTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF397123E669267C5C6D7D91221FBA59 /* HXTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AF42D7FDB3447F7C4A149737BB8F7A9 /* HXScreenTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE097272E42306F81CB24190052665F /* HXScreenTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		887F1C3300C23556DE8AB7DA6F2F2909 /* HXColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 922ABD7CB619629029934D468959E1DC /* HXColorTool.m */; };
-		94FA66F0FE2040332B1FBC562289FAA9 /* HXFloatingHearts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAC9830C88CE577FC3E3A289877DFC9 /* HXFloatingHearts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94FA66F0FE2040332B1FBC562289FAA9 /* HXFloatingHearts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2863B8F953774E873BEEEB5D602361DA /* HXFloatingHearts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9588138A66B36F0BFD459310279BAD4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F055678608515860AAA7ABDEE4100C3B /* UIKit.framework */; };
-		A311B44EF1E2D59371E8B13B100D28E7 /* HXFloatingHearts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7A1038D106600278C1D5189EA22820 /* HXFloatingHearts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A311B44EF1E2D59371E8B13B100D28E7 /* HXFloatingHearts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8195887327127DB2D486390D818DC2 /* HXFloatingHearts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B54B9ECA5E3FAC81566E87B6CF661792 /* HXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AC35E564C42DCB8FA03DCA4D90A79F /* HXTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B85913504C280C485ACF99BE30329867 /* HXTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5229D98D9E81BA360715C9EA566C193 /* HXTool.framework */; };
 		BB7C0D4F8E23DA85E1D3CC0AD8DCAA74 /* Pods-HXFloatingHearts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 816C5E755BB0B3AB7507932459D4E7B9 /* Pods-HXFloatingHearts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -66,15 +66,17 @@
 		1A887115446DE8663A7ED75C93940CD4 /* Pods-HXFloatingHearts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HXFloatingHearts_Example.modulemap"; sourceTree = "<group>"; };
 		1DE097272E42306F81CB24190052665F /* HXScreenTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXScreenTool.h; path = HXTool/Classes/HXScreenTool.h; sourceTree = "<group>"; };
 		2454541EEBD4501CA53EF6CA9918D875 /* Pods-HXFloatingHearts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXFloatingHearts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24FB5825751D4D508B3CD77D65797099 /* HXFloatingHearts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXFloatingHearts-prefix.pch"; sourceTree = "<group>"; };
+		2863B8F953774E873BEEEB5D602361DA /* HXFloatingHearts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HXFloatingHearts.h; sourceTree = "<group>"; };
+		29E11390E888B014B4A9628ACAE6ADD0 /* HXFloatingHearts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HXFloatingHearts.modulemap; sourceTree = "<group>"; };
 		2C1EF7D36D38A56486D1266625B65C5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D2B2E57A441973FF123E6A8B3530D06 /* Pods-HXFloatingHearts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXFloatingHearts_Tests-dummy.m"; sourceTree = "<group>"; };
-		30B696BBFA765318039D7161CCE47BB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D07A73F3EAA84CD35CF288EA516CFB /* Pods-HXFloatingHearts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXFloatingHearts_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41F52FAFDC250E6C6D0B95EE643A7E6C /* HXButtonTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXButtonTool.m; path = HXTool/Classes/HXButtonTool.m; sourceTree = "<group>"; };
 		4FFC00794CC148C8CA7EC7D3933D5EC8 /* Pods-HXFloatingHearts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXFloatingHearts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5747D7D909D9C25C55C709BE6DD2B531 /* Pods-HXFloatingHearts_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXFloatingHearts_Example-resources.sh"; sourceTree = "<group>"; };
-		663AE38120FCC86754AD159F435BDF25 /* HXFloatingHearts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HXFloatingHearts.modulemap; sourceTree = "<group>"; };
 		6F977CB08D35B37CBA0FCBB5CAAAC9A5 /* Pods-HXFloatingHearts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXFloatingHearts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7498D1D4589940CD17741E6B9663DCD2 /* HXFloatingHearts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXFloatingHearts-dummy.m"; sourceTree = "<group>"; };
 		76D3F7B4138712F61FF8F91E0BA6E9F3 /* HXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXTool-prefix.pch"; sourceTree = "<group>"; };
 		78A89C7D683CE1B06B6392907A6EA7F6 /* Pods-HXFloatingHearts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXFloatingHearts_Example.release.xcconfig"; sourceTree = "<group>"; };
 		78B9F286ED5E0A1573B0AD6BDD3934C3 /* Pods-HXFloatingHearts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXFloatingHearts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -82,8 +84,6 @@
 		816C5E755BB0B3AB7507932459D4E7B9 /* Pods-HXFloatingHearts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXFloatingHearts_Tests-umbrella.h"; sourceTree = "<group>"; };
 		848C76A11016DF6946DC2473856FFFC8 /* Pods-HXFloatingHearts_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXFloatingHearts_Tests-resources.sh"; sourceTree = "<group>"; };
 		87AC35E564C42DCB8FA03DCA4D90A79F /* HXTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXTool.h; path = HXTool/Classes/HXTool.h; sourceTree = "<group>"; };
-		8A46D5A6AA4610D3FA0E0AE8D5489D6A /* HXFloatingHearts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HXFloatingHearts.m; sourceTree = "<group>"; };
-		8EAC9830C88CE577FC3E3A289877DFC9 /* HXFloatingHearts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HXFloatingHearts.h; sourceTree = "<group>"; };
 		8F95E606E96D7E3FFCDC3A025475D72E /* HXTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HXTool.framework; path = HXTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		922ABD7CB619629029934D468959E1DC /* HXColorTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXColorTool.m; path = HXTool/Classes/HXColorTool.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -91,22 +91,22 @@
 		A5229D98D9E81BA360715C9EA566C193 /* HXTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HXTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF397123E669267C5C6D7D91221FBA59 /* HXTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXTool-umbrella.h"; sourceTree = "<group>"; };
 		B01F65E13F4042535A9CC37A5A5D2610 /* Pods-HXFloatingHearts_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXFloatingHearts_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BE8195887327127DB2D486390D818DC2 /* HXFloatingHearts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXFloatingHearts-umbrella.h"; sourceTree = "<group>"; };
 		C027B6A9B18484F402AE04627BD7696B /* HXButtonTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXButtonTool.h; path = HXTool/Classes/HXButtonTool.h; sourceTree = "<group>"; };
+		C119CFBEEEB1A0BCE2854FE15E5D14FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C39DAF8AD12A45279218D76D46F8BF39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7827083246D6742BC534B3ED38E8CAE /* HXFloatingHearts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXFloatingHearts-prefix.pch"; sourceTree = "<group>"; };
 		C7903AACB300E49D5CFB3EA2A318348A /* Pods_HXFloatingHearts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXFloatingHearts_Example.framework; path = "Pods-HXFloatingHearts_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C925330B726CC17C3BAFE46F6FE9319C /* Pods_HXFloatingHearts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXFloatingHearts_Tests.framework; path = "Pods-HXFloatingHearts_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA9E041DFAB3E8565E5C34FEA9138C0D /* HXFloatingHearts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXFloatingHearts-dummy.m"; sourceTree = "<group>"; };
 		CE95461D6D6FA604017D06AFCDB73C02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9FE7EEA50E92865548236B0AEC70D6C /* HXFloatingHearts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HXFloatingHearts.m; sourceTree = "<group>"; };
 		E153A4A59B3048DDC41D2E4B732D0CBA /* Pods-HXFloatingHearts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXFloatingHearts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2F1536A60288FE9CA672BFE4717C48E /* HXFloatingHearts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXFloatingHearts.xcconfig; sourceTree = "<group>"; };
 		E480E598D561FEFF088982276F17E4C4 /* Pods-HXFloatingHearts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HXFloatingHearts_Tests.modulemap"; sourceTree = "<group>"; };
 		E5075B887A7C6169A983DE877AFEE077 /* HXTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXTool.xcconfig; sourceTree = "<group>"; };
 		F055678608515860AAA7ABDEE4100C3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F1D180ED53AB8E33BD042249CD39CEA8 /* HXScreenTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXScreenTool.m; path = HXTool/Classes/HXScreenTool.m; sourceTree = "<group>"; };
 		F20EAD1A46863989456C08EA8F75D9A2 /* HXTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HXTool.modulemap; sourceTree = "<group>"; };
 		F5008BD5BF933052A5DD329BB8E4A981 /* Pods-HXFloatingHearts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXFloatingHearts_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBA20BD6B726C912A671C13D3BF2628C /* HXFloatingHearts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXFloatingHearts.xcconfig; sourceTree = "<group>"; };
-		FD7A1038D106600278C1D5189EA22820 /* HXFloatingHearts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXFloatingHearts-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,14 +148,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BC3180FB1511B6F4BFBC128B125A435 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				88007BFACD1E8DFC53222508781CCE4F /* HXFloatingHearts */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		3D714A960B2EC5E0071964D52027B166 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,15 +171,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		639EBD0A85A0B69EE914AA14C426125C /* HXFloatingHearts */ = {
-			isa = PBXGroup;
-			children = (
-				7E57AD626CFBCB07621BEDBE6F792ECE /* Classes */,
-			);
-			name = HXFloatingHearts;
-			path = HXFloatingHearts;
-			sourceTree = "<group>";
-		};
 		64C97001A85C6F7B3BF676F15235390A /* Pods-HXFloatingHearts_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +189,16 @@
 			path = "Target Support Files/Pods-HXFloatingHearts_Example";
 			sourceTree = "<group>";
 		};
+		744191B37C509603CA14BC4DF19F18F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2863B8F953774E873BEEEB5D602361DA /* HXFloatingHearts.h */,
+				D9FE7EEA50E92865548236B0AEC70D6C /* HXFloatingHearts.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7ACD2E1FBA72C0A5A0A1D5A52267C74E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0BC3180FB1511B6F4BFBC128B125A435 /* Development Pods */,
+				B5D30B2B8078F6B50041744B3F1A055E /* Development Pods */,
 				7ACD2E1FBA72C0A5A0A1D5A52267C74E /* Frameworks */,
 				FE171BEB3220807A47C47E652F040640 /* Pods */,
 				E591ADAC6B4B60041636DCD3C25A85EC /* Products */,
@@ -227,39 +220,19 @@
 			);
 			sourceTree = "<group>";
 		};
-		7E2E7F421FA0B86DDF61B47CFCE1E935 /* Support Files */ = {
+		905B97577E69B7A5A82D6E77F17BB1C5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				663AE38120FCC86754AD159F435BDF25 /* HXFloatingHearts.modulemap */,
-				FBA20BD6B726C912A671C13D3BF2628C /* HXFloatingHearts.xcconfig */,
-				CA9E041DFAB3E8565E5C34FEA9138C0D /* HXFloatingHearts-dummy.m */,
-				C7827083246D6742BC534B3ED38E8CAE /* HXFloatingHearts-prefix.pch */,
-				FD7A1038D106600278C1D5189EA22820 /* HXFloatingHearts-umbrella.h */,
-				30B696BBFA765318039D7161CCE47BB9 /* Info.plist */,
+				29E11390E888B014B4A9628ACAE6ADD0 /* HXFloatingHearts.modulemap */,
+				E2F1536A60288FE9CA672BFE4717C48E /* HXFloatingHearts.xcconfig */,
+				7498D1D4589940CD17741E6B9663DCD2 /* HXFloatingHearts-dummy.m */,
+				24FB5825751D4D508B3CD77D65797099 /* HXFloatingHearts-prefix.pch */,
+				BE8195887327127DB2D486390D818DC2 /* HXFloatingHearts-umbrella.h */,
+				C119CFBEEEB1A0BCE2854FE15E5D14FA /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HXFloatingHearts";
 			sourceTree = "<group>";
-		};
-		7E57AD626CFBCB07621BEDBE6F792ECE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8EAC9830C88CE577FC3E3A289877DFC9 /* HXFloatingHearts.h */,
-				8A46D5A6AA4610D3FA0E0AE8D5489D6A /* HXFloatingHearts.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		88007BFACD1E8DFC53222508781CCE4F /* HXFloatingHearts */ = {
-			isa = PBXGroup;
-			children = (
-				639EBD0A85A0B69EE914AA14C426125C /* HXFloatingHearts */,
-				7E2E7F421FA0B86DDF61B47CFCE1E935 /* Support Files */,
-			);
-			name = HXFloatingHearts;
-			path = /Users/haixiao/Desktop/OCDevelopment/HXFloatingHearts;
-			sourceTree = "<absolute>";
 		};
 		9C9805C4C3EA89F880C76E66C25ADB56 /* HXTool */ = {
 			isa = PBXGroup;
@@ -275,6 +248,14 @@
 			);
 			name = HXTool;
 			path = HXTool;
+			sourceTree = "<group>";
+		};
+		B5D30B2B8078F6B50041744B3F1A055E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1395CFC294B096E0F5A2407EC748B /* HXFloatingHearts */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B8E40B3786E5DB03D843E79965D2A83E /* Pods-HXFloatingHearts_Tests */ = {
@@ -293,6 +274,25 @@
 			);
 			name = "Pods-HXFloatingHearts_Tests";
 			path = "Target Support Files/Pods-HXFloatingHearts_Tests";
+			sourceTree = "<group>";
+		};
+		C3E1395CFC294B096E0F5A2407EC748B /* HXFloatingHearts */ = {
+			isa = PBXGroup;
+			children = (
+				C730728EE5660DA313EC58A5FECC974A /* HXFloatingHearts */,
+				905B97577E69B7A5A82D6E77F17BB1C5 /* Support Files */,
+			);
+			name = HXFloatingHearts;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C730728EE5660DA313EC58A5FECC974A /* HXFloatingHearts */ = {
+			isa = PBXGroup;
+			children = (
+				744191B37C509603CA14BC4DF19F18F5 /* Classes */,
+			);
+			name = HXFloatingHearts;
+			path = HXFloatingHearts;
 			sourceTree = "<group>";
 		};
 		E591ADAC6B4B60041636DCD3C25A85EC /* Products */ = {
@@ -529,7 +529,7 @@
 /* Begin XCBuildConfiguration section */
 		064DF6A55D6DC8BC1DE7F4378E518E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA20BD6B726C912A671C13D3BF2628C /* HXFloatingHearts.xcconfig */;
+			baseConfigurationReference = E2F1536A60288FE9CA672BFE4717C48E /* HXFloatingHearts.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -689,7 +689,7 @@
 		};
 		7F20B12FC2C23B013843F40060CE583F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA20BD6B726C912A671C13D3BF2628C /* HXFloatingHearts.xcconfig */;
+			baseConfigurationReference = E2F1536A60288FE9CA672BFE4717C48E /* HXFloatingHearts.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
